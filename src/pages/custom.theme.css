@@ -1,0 +1,227 @@
+
+.ag-theme-custom {
+    --ag-background-color: transparent;
+    
+    --ag-header-background-color: #151318;
+    
+    --ag-header-foreground-color: #FFFFFF;
+    
+    border: none;
+    
+    height: 290px;
+    margin-top: 29px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    
+    overflow-x: hidden;
+    
+}
+
+
+.ag-theme-custom .ag-header-cell {
+    height: 40px;
+    
+    line-height: 40px;
+    
+}
+
+
+.ag-theme-custom .ag-row {
+    border: none;
+    
+    background-color: transparent;
+    
+}
+
+
+.ag-theme-custom .ag-root {
+    background-color: transparent;
+    
+}
+
+
+.ag-theme-custom .ag-body-viewport {
+    border: none;
+    
+    overflow-x: auto;
+    
+}
+
+
+.ag-theme-custom .ag-body-viewport::-webkit-scrollbar {
+    height: 8px;
+    
+}
+
+.ag-theme-custom .ag-body-viewport::-webkit-scrollbar-thumb {
+    background: #555;
+    
+    border-radius: 4px;
+    
+}
+
+.ag-theme-custom .ag-body-viewport::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    
+}
+
+.ag-theme-custom .ag-header {
+    height: 40px !important;
+    
+    border-radius: 8px;
+    
+    border: none;
+    
+    box-shadow: none;
+    
+}
+
+.ag-theme-custom .ag-header-cell {
+    height: 40px !important;
+    
+    line-height: 40px;
+    
+    text-align: center;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    color: #FFFFFF;
+    
+    font-size: 12px;
+    
+    font-family: 'Inter';
+    
+    font-weight: 700;
+    
+}
+
+
+.ag-theme-custom .ag-cell {
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+    
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    
+    border: none;
+    
+}
+
+
+.ag-theme-custom .ag-cell,
+.ag-theme-custom .ag-row {
+    border: none;
+    
+}
+
+
+.ag-theme-custom .ag-root-wrapper {
+    border: none;
+    
+}
+
+
+.ag-theme-custom .ag-body-viewport {
+    border: none;
+    
+    outline: none;
+    
+}
+
+
+.ag-theme-custom .ag-root {
+    box-shadow: none;
+    
+}
+
+
+.ag-theme-custom .ag-body-viewport {
+    overflow-y: auto;
+    
+    overflow-x: hidden;
+    
+}
+
+
+.ag-theme-custom .ag-body-viewport::-webkit-scrollbar {
+    display: none;
+    
+}
+
+
+.ag-theme-custom {
+    overflow-x: hidden;
+    
+}
+
+
+.status-active {
+    background-color: rgba(0, 182, 155, 0.1);
+    width: 82px;
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.status-inactive {
+    background-color: rgba(255, 0, 0, 0.1);
+    width: 82px;
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+
+.ulo-family {
+    background-color: #270720;
+    width: 82px;
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ulo-lite {
+    background-color: rgba(134, 0, 181, 0.1);
+    width: 82px;
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ulo-plus {
+    background-color: rgba(0, 6, 181, 0.1);
+    width: 82px;
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ulo-infinity {
+    background-color:rgba(0, 148, 181, 0.1); width: 82px;
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ulo-free {
+    background-color: rgba(0, 0, 0, 0.22);
+    height: 26px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
